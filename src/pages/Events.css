@@ -1,0 +1,53 @@
+.event-container { 
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.left-section,
+.right-section {
+    flex: 1;
+    width: 50%;
+    border: 2px solid black;
+    padding: 16px;
+    overflow: scroll;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-input {
+    padding: 8px;
+    border-radius: 5px;
+    width: 200px;
+}
+
+h2 {
+    margin: 0px;
+}
+
+.card-container {
+    overflow: scroll;
+    margin: 16px;
+}
+
+.event-list {
+    padding: 16px;
+    border:1px solid black;
+    margin: 16px;
+    overflow: scroll;
+    border-radius: 8px;
+}
+
+.category-style {
+    text-align: left;
+}
+
+.event-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin: 8px;
+}
