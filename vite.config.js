@@ -6,11 +6,6 @@ export default defineConfig({
   plugins: [react()],
   base: '/container/latest/',
   build:{
-    rollupOptions:{
-      output: {
-        chunkFileNames: 'container/latest/assets/[name]-[hash].js',
-      }
-    },
     outDir: 'dist',
   },
   publicDir:'/container/latest/'
