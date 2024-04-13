@@ -10,7 +10,8 @@ export default defineConfig({
         chunkFileNames: 'container/latest/assets/[name]-[hash].js',
       }
     },
-    outDir: 'dist'
+    outDir: 'dist',
+    assetsDir: 'container/latest/assets'
   },
   publicDir:'/container/latest/assets'
 })
